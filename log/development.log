@@ -2326,3 +2326,27 @@ Processing by WelcomeController#home as HTML
 Completed 200 OK in 131ms (Views: 128.6ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/" for 27.7.82.183 at 2019-06-04 19:56:41 +0000
+Cannot render console from 27.7.82.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (263.9ms)
+  [1m[36mCategory Load (14.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (90.4ms)
+  Rendered layouts/_messages.html.erb (18.5ms)
+  Rendered layouts/_footer.html.erb (6.5ms)
+Completed 200 OK in 5197ms (Views: 4860.2ms | ActiveRecord: 14.2ms)
+
+
+Started GET "/" for 27.7.82.183 at 2019-06-04 19:56:57 +0000
+Cannot render console from 27.7.82.183! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (3.7ms)
+  [1m[36mCategory Load (0.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  Rendered layouts/_navigation.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (4.4ms)
+  Rendered layouts/_footer.html.erb (3.7ms)
+Completed 200 OK in 262ms (Views: 259.9ms | ActiveRecord: 0.3ms)
+
+
